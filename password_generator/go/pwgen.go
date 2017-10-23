@@ -10,7 +10,7 @@ import (
 )
 
 const charset = "abcdefghijklmnopqrstuvwxyz" +
-	"ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+	"ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!-+@#$%&"
 
 func main() {
 	if len(os.Args) != 2 {
